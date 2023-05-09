@@ -9,10 +9,10 @@ module.exports = {
     
   ],
 
-  api: [{
-    type: 'category',
-    label: 'Getting Started',
-    collapsed: false,
-    items: ['components'],
-  }],
+  // api: [{
+  //   type: 'category',
+  //   label: 'Getting Started',
+  //   collapsed: false,
+  //   items: ['components'],
+  // }],
 };

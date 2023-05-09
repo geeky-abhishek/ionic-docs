@@ -16,9 +16,6 @@ Of course, a code editor is also required. [Visual Studio Code](https://code.vis
 
 ## Terminal
 
-:::note
-Much of Ionic development requires familiarity with the command line. If you're new to the command line, see [this Blog Post](https://ionicframework.com/blog/new-to-the-command-line/) for a quick introduction.
-:::
 
 In general, we recommend using the built-in terminals. Many third-party terminals work well with Ionic, but may not be supported.
 
@@ -40,13 +37,10 @@ $ node --version
 $ npm --version
 ```
 
-:::note
-Permission errors are common on macOS when installing global packages with `npm`. If you get an `EACCES` error, see [Resolving Permission Errors](../developing/tips.md#resolving-permission-errors).
-:::
+
 
 ## Git
 
-Although not required, the version control system [Git](../reference/glossary.md#git) is highly recommended.
 
 Git is often accompanied by a Git Host, such as [GitHub](https://github.com/), in which case additional setup is required. Follow the tutorial from the Git Host's documentation to set up Git:
 

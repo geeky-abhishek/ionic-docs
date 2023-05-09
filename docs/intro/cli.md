@@ -42,11 +42,11 @@ add your note here, if there are any
 
 ## Run the App
 
-The majority of Ionic app development can be spent right in the browser using the `ionic serve` command:
+
 
 ```shell
 $ cd myApp
-$ ionic serve
+$ your run command
 ```
 
-There are a number of other ways to run an app, it's recommended to start with this workflow. To develop and test apps on devices and emulators, see the [Running an App Guide](../developing/previewing.md).
+There are a number of other ways to run an app, it's recommended to start with this workflow. 
