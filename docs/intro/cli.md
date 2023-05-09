@@ -1,56 +1,44 @@
 ---
-title: Installing Ionic
-sidebar_label: CLI Installation
+title: Installing Dependencies
+sidebar_label: Dependencies Installation
 ---
 
-import AppWizard from '@components/page/intro/AppWizard';
+
 
 <head>
-  <title>How to Install The Ionic Framework CLI to Build Mobile Apps</title>
+  <title>How to Install The Project Dependencies</title>
   <meta
     name="description"
-    content="The Ionic CLI is the preferred method of installation—offering a wide range of dev tools and help options. Learn how to install Ionic and begin building apps."
+    content="your meta content goes here"
   />
 </head>
 
-Ionic apps are created and developed primarily through the Ionic [command-line](../reference/glossary.md#cli) utility. The Ionic CLI is the preferred method of installation, as it offers a wide range of dev tools and help options along the way. It is also the main tool through which to run the app and connect it to other services, such as Appflow.
+Description...
 
-<AppWizard />
 
-## Install the Ionic CLI
+
+## Install Dependencies
 
 Before proceeding, make sure your computer has [Node.js](../reference/glossary.md#node) installed. See [these instructions](environment.md) to set up an environment for Ionic.
 
-Install the Ionic CLI with npm:
+Install the Dependencies CLI with npm:
 
 ```shell
-npm install -g @ionic/cli
+installation command
 ```
 
 If there was a previous installation of the Ionic CLI, it will need to be uninstalled due to a change in package name.
 
 ```shell
-$ npm uninstall -g ionic
-$ npm install -g @ionic/cli
+$ installation command
+
 
 ```
 
 :::note
-The `-g` option means _install globally_. When packages are installed globally, `EACCES` permission errors can occur.
-Consider setting up npm to operate globally without elevated permissions. See [Resolving Permission Errors](../developing/tips.md#resolving-permission-errors) for more information.
+add your note here, if there are any
 :::
 
-## Start an App
-
-Create an Ionic app using one of the pre-made app templates, or a blank one to start fresh. The three most common starters are the `blank` starter, `tabs` starter, and `sidemenu` starter. Get started with the `ionic start` command:
-
-```shell
-ionic start
-```
-
-![start app thumbnails](/img/installation/start-app-thumbnails.png)
-
-To learn more about starting Ionic apps, see the [Starting Guide](../developing/starting.md).
 
 ## Run the App
 

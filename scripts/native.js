@@ -5,30 +5,30 @@ const fetch = require('node-fetch');
 const tag = 'latest';
 
 const pluginApis = [
-  'action-sheet',
-  'app',
-  'app-launcher',
-  'browser',
-  'camera',
-  'clipboard',
-  'device',
-  'dialog',
-  'filesystem',
-  'geolocation',
-  'google-maps',
-  'haptics',
-  'keyboard',
-  'local-notifications',
-  'motion',
-  'network',
-  'preferences',
-  'push-notifications',
-  'screen-reader',
-  'share',
-  'splash-screen',
-  'status-bar',
-  'text-zoom',
-  'toast',
+  // 'action-sheet',
+  // 'app',
+  // 'app-launcher',
+  // 'browser',
+  // 'camera',
+  // 'clipboard',
+  // 'device',
+  // 'dialog',
+  // 'filesystem',
+  // 'geolocation',
+  // 'google-maps',
+  // 'haptics',
+  // 'keyboard',
+  // 'local-notifications',
+  // 'motion',
+  // 'network',
+  // 'preferences',
+  // 'push-notifications',
+  // 'screen-reader',
+  // 'share',
+  // 'splash-screen',
+  // 'status-bar',
+  // 'text-zoom',
+  // 'toast',
 ];
 
 async function buildPluginApiDocs(pluginId) {
@@ -38,7 +38,7 @@ async function buildPluginApiDocs(pluginId) {
   const fileName = `${pluginId}.md`;
 
   fs.writeFileSync(`docs/native/${fileName}`, apiContent);
-  fs.writeFileSync(`versioned_docs/version-v6/native/${fileName}`, apiContent);
+  // fs.writeFileSync(`versioned_docs/version-v6/native/${fileName}`, apiContent);
 }
 
 function createApiPage(pluginId, readme, pkgJson) {

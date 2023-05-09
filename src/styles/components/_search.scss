@@ -49,7 +49,7 @@ html[data-theme='dark'] {
     width: 100%;
     border-radius: 8px;
     box-shadow: var(--docsearch-searchbox-shadow);
-
+display:none;
     .DocSearch-Button-Keys {
       min-width: 0;
       display: flex;
